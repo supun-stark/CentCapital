@@ -270,9 +270,18 @@
   }
 
   /* Auth */
-  .auth-asset {
+  /* .auth-asset {
     @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sky-1 max-lg:hidden;
-  }
+  } */
+
+  .auth-asset {
+    @apply flex h-screen w-full top-0 items-center sticky justify-center bg-red-200 max-lg:hidden;
+    background-image: url('/icons/main-capital.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
   /* Auth Form */
   .auth-form {
